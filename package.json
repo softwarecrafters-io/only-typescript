@@ -1,0 +1,19 @@
+{
+  "name": "only-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/app.js",
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "start": "node lib/app.js",
+    "compile": "tsc -b",
+    "compile:watch": "tsc -b --watch",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check-updates": "ncu -u"
+  },
+  "devDependencies": {
+    "npm-check-updates": "^9.0.2",
+    "typescript": "^4.0.3"
+  }
+}
